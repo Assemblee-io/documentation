@@ -5,7 +5,7 @@
 
 Rendez vous sur https://visioconference.me/app/integration afin de créer votre clé API :
 
-![https://i.imgur.com/cXkgANu.jpg](cleapi.png)
+[![N|Solid](https://i.imgur.com/cXkgANu.jpg)](https://visioconference.me/app)
 
 Cette clé API est privée, ne la partagez pas.
 
