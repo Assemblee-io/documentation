@@ -43,7 +43,7 @@ fetch("https://api.visioconference.me/api/v1/entreprise/visio", options)
 ```
 
 ### Exemple PHP (curl):
-```
+```php
 <?php
 
 $curl = curl_init();
