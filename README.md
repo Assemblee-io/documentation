@@ -92,6 +92,6 @@ L'API vous fournira directement le code HTML necessaire pour integrer l'iFrame, 
 ## **Utilisation du service**
 
 
-[![N|Solid](blob:https://imgur.com/e9504e9b-c4a5-49b5-8dd4-e5dd5618a108)](https://visioconference.me)
+[![N|Solid](https://i.imgur.com/95YNKJb.png)](https://visioconference.me)
 
 
