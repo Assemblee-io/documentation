@@ -3,13 +3,13 @@
 ## **Création de l'accès API**
 
 
-Rendez vous sur https://visioconference.me/app/integration afin de créer votre clé API
+Rendez vous sur https://visioconference.me/app/integration afin de créer votre clé API :
 
-![apikey](cleapi.png)
+![https://i.imgur.com/cXkgANu.jpg](cleapi.png)
 
 Cette clé API est privée, ne la partagez pas.
 
-Une fois votre clé d'accès obtenue, vous pouvez demander la création de salons de visioconférence (voir documentation API ([documentation](https://api.visioconference.me/api/v1/enterprise_doc/)) :
+Une fois votre clé d'accès obtenue, vous pouvez demander la création de salons de visioconférence (voir documentation API : https://api.visioconference.me/api/v1/enterprise_doc/
 
 
 ### Exemple cURL: 
