@@ -42,7 +42,39 @@ fetch("https://api.visioconference.me/api/v1/entreprise/visio", options)
   .catch(error => console.log('error', error));
 ```
 
-### Réponse de l'API
+### Exemple PHP (curl):
+```
+<?php
+
+$curl = curl_init();
+
+curl_setopt_array($curl, array(
+  CURLOPT_URL => 'https://api.visioconference.me/api/v1/entreprise/visio',
+  CURLOPT_RETURNTRANSFER => true,
+  CURLOPT_ENCODING => '',
+  CURLOPT_MAXREDIRS => 10,
+  CURLOPT_TIMEOUT => 0,
+  CURLOPT_FOLLOWLOCATION => true,
+  CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+  CURLOPT_CUSTOMREQUEST => 'POST',
+  CURLOPT_POSTFIELDS =>'{
+    "name": "ROOM_NAME"
+}',
+  CURLOPT_HTTPHEADER => array(
+    'X-Token: API_KEY',
+    'Content-Type: application/json',
+  ),
+));
+
+$response = curl_exec($curl);
+
+curl_close($curl);
+echo $response;
+?>
+```
+
+
+## Réponse de l'API
 ```json
 {
     "code": 201,
@@ -56,3 +88,10 @@ fetch("https://api.visioconference.me/api/v1/entreprise/visio", options)
 ```
 
 L'API vous fournira directement le code HTML necessaire pour integrer l'iFrame, ainsi qu'un lien web pouvant directement être utilisé par vos utilisateurs.
+
+## **Utilisation du service**
+
+
+[![N|Solid](blob:https://imgur.com/e9504e9b-c4a5-49b5-8dd4-e5dd5618a108)](https://visioconference.me)
+
+
