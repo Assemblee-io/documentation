@@ -77,17 +77,53 @@ echo $response;
 ## Réponse de l'API
 ```json
 {
+    {
     "code": 201,
     "data": {
-        "iframe": "<iframe allow='camera; microphone; fullscreen; display-capture' src='https://visioconference.me/meet/XXXXXXXX' style='height: 100%; width: 100%; border: 0px;'/>",
-        "uniqid": "XXXXXXXX",
-        "url": "https://visioconference.me/meet/XXXXXXXX" 
+        "iframe": "<iframe allow='camera; microphone; fullscreen; display-capture' src='https://visioconference.me/meet/XXXXXXX' style='height: 100%; width: 100%; border: 0px;'/>",
+        "uniqid": "XXXXXXX",
+        "url": "https://visioconference.me/meet/XXXXXXX",
+        "room": {
+            "id": "Qogny8tSpLybQCkaRFSriB",
+            "id_team": "FGe1cF8Ukn2V1E1A6zwbFp",
+            "id_user": "RTk9Y7yBdAA12x72wNrnGA",
+            "name": "test",
+            "slot": 100,
+            "uniquename": "XXXXXXX",
+            "template": "meet",
+            "moderator_token": "NTSIFSMV",
+            "password_token": "ZWGN5XI5",
+            "updatedAt": "2021-02-22T12:29:06.708Z",
+            "createdAt": "2021-02-22T12:29:06.708Z"
+        }
     },
     "message": ""
+}
 }
 ```
 
 L'API vous fournira directement le code HTML necessaire pour integrer l'iFrame, ainsi qu'un lien web pouvant directement être utilisé par vos utilisateurs.
+
+## **Paramètre d'URL**
+
+Vous pouvez envoyer certain paramètre dans l'URL de l'iframe visioconference.me:
+| Paramètre  | Effet |
+| :--------------- | :--- |
+| m  | Permet l'envoi du moderator_token, connecte l'utilisateur en temps que modérateur |
+| name  | Permet l'envoi d'un nom, applique le nom a l'utilisateur dans la salle de connection |
+
+### **Exemple**
+```
+# Connection en temps que modérateur
+https://visioconference.me/meet/XXXXXXX?m=NTSIFSMV
+
+# Connection sans droit
+https://visioconference.me/meet/XXXXXXX
+
+# Connection nommé et modérateur
+https://visioconference.me/meet/XXXXXXX?m=NTSIFSMV&name=John
+```
+
 
 ## **Utilisation du service**
 
