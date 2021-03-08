@@ -77,7 +77,6 @@ echo $response;
 ## Réponse de l'API
 ```json
 {
-    {
     "code": 201,
     "data": {
         "iframe": "<iframe allow='camera; microphone; fullscreen; display-capture' src='https://visioconference.me/meet/XXXXXXX' style='height: 100%; width: 100%; border: 0px;'/>",
@@ -98,7 +97,6 @@ echo $response;
         }
     },
     "message": ""
-}
 }
 ```
 
