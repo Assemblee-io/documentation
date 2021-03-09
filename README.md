@@ -79,22 +79,10 @@ echo $response;
 {
     "code": 201,
     "data": {
-        "iframe": "<iframe allow='camera; microphone; fullscreen; display-capture' src='https://visioconference.me/meet/XXXXXXX' style='height: 100%; width: 100%; border: 0px;'/>",
-        "uniqid": "XXXXXXX",
-        "url": "https://visioconference.me/meet/XXXXXXX",
-        "room": {
-            "id": "Qogny8tSpLybQCkaRFSriB",
-            "id_team": "FGe1cF8Ukn2V1E1A6zwbFp",
-            "id_user": "RTk9Y7yBdAA12x72wNrnGA",
-            "name": "test",
-            "slot": 100,
-            "uniquename": "XXXXXXX",
-            "template": "meet",
-            "moderator_token": "NTSIFSMV",
-            "password_token": "ZWGN5XI5",
-            "updatedAt": "2021-02-22T12:29:06.708Z",
-            "createdAt": "2021-02-22T12:29:06.708Z"
-        }
+        "iframe": "<iframe allow='camera; microphone; fullscreen; display-capture' src='https://visioconference.me/meet/XXXXXXXX' style='height: 100%; width: 100%; border: 0px;'/>",
+        "uniqid": "XXXXXXXX",
+        "url": "https://visioconference.me/meet/XXXXXXXX",
+        "moderator_token": "ZQ9NYD3D"
     },
     "message": ""
 }
